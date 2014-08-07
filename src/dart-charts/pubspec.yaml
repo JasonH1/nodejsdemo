@@ -1,0 +1,8 @@
+name: dart
+version: 0.0.1
+author: Jason Ho
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: '>=0.9.0 <0.11.0'
+  js: any

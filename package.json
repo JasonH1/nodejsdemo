@@ -1,0 +1,38 @@
+{
+  "name": "nodejsdemo",
+    "version": "0.1.0",
+    "description": "A Demo Nodejs Application",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/JasonH1/nodejsdemo.git"
+    },
+    "keywords": [
+        "backbone",
+        "requirejs"
+    ],
+    "author": "Jason Ho",
+    "license": "MIT",
+    "bugs": {
+        "url": "https:/github.com/JasonH1/nodejsdemo/issues"
+    },
+  "engines": {
+    "node": ">= 1.0.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "express-hbs": "*",
+    "express": "~3.4.4",
+    "request": "*",
+    "js-beautify": "",
+    "q": "*",
+    "underscore": "*",
+    "cluster2": "*"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}
